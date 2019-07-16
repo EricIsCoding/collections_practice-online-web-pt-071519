@@ -58,3 +58,7 @@ def kesha_maker(array)
   kesha_array
 end
 
+def find_a(array)
+  array.collect do |word|
+  end
+end
