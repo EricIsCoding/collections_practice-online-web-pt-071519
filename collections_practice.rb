@@ -55,4 +55,5 @@ def kesha_maker(array)
     split_word[2] = "$"
     kesha_array << split_word.join
   end
+  kesha_array
 end
