@@ -4,7 +4,7 @@ def sort_array_asc(array)
   array.sort
 end
 
-def sort_array_asc(array)
+def sort_array_dsc(array)
   array.sort do |a, b|
     if a == b
       0
