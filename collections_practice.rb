@@ -53,7 +53,7 @@ def kesha_maker(array)
   array.each do |word|
     split_word = word.chars
     split_word[2] = "$"
-    kesha_array << split_word.to_s
+    kesha_array << split_word.join(" ")
     binding.pry
   end
 end
