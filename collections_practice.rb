@@ -66,4 +66,6 @@ end
 
 def sum_array(array)
   array.inject(0) do |total, result|
+    total += result
+  end
 end
