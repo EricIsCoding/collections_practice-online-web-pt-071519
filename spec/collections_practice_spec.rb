@@ -30,7 +30,7 @@ describe 'collections practice' do
     end
   end
   
-  # Question 4.5
+  # Question 4.5 (Q4 Advanced)
   describe '#swap_elements_from_to' do
     it 'swap one element of an array with another element in the array' do
       expect(swap_elements_from_to(["a", "b", "c"],0,2)).to eq(["c", "b", "a"])
