@@ -51,8 +51,8 @@ end
 def kesha_maker(array)
   kesha_array = []
   array.each do |word|
-    split_word = word.to_a
-    split_word
+    split_word = word.chars
+    split_word[2] = "$"
     binding.pry
   end
 end
