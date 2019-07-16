@@ -48,3 +48,11 @@ def reverse_array(array)
   array.reverse
 end
 
+def kesha_maker(array)
+  kesha_array = []
+  array.each do |word|
+    split_word = word.to_a
+    split_word
+    binding.pry
+  end
+end
