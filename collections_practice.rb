@@ -22,7 +22,7 @@ def sort_array_char_count
     b_length = b.length
     if a_length == b_length
       0
-    elifif a_length > b_length
+    elsif a_length > b_length
       1
     else
       -1
