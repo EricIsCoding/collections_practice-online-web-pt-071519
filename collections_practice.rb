@@ -37,7 +37,7 @@ def swap_elements(array)
   array
 end
 
-def swap_elements(array, from, to)
+def swap_elements_from_to(array, from, to)
   hold = array[from]
   array[from] = array[to]
   array[to] = hold
